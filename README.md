@@ -1,7 +1,7 @@
 # mbeacon
 Turn your mac into an iBeacon.
 
-# Getting Started
+# How to use
 
 ```
 $ defaults write mbeacon uuid -string "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
