@@ -1,6 +1,14 @@
 # mbeacon
 Turn your mac into an iBeacon.
 
+# Installation
+
+```
+$ brew tap watr/formulae
+...
+brew install mbeacon
+```
+
 # How to use
 
 ```
