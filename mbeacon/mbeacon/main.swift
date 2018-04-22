@@ -1,8 +1,8 @@
 
-import Cocoa
+import Foundation
 import CoreBluetooth
 
-let currentVersionDescription: String = "mbeacon 0.0.1"
+let currentVersionDescription: String = "mbeacon 0.0.2"
 let defaults = UserDefaults.standard
 
 let uuid: UUID
@@ -26,4 +26,4 @@ let measuredPower: Int8 = Int8(UserDefaults.standard.integer(forKey: "measuredPo
 let advertisement = Advertisement(uuid: uuid, major: major, minor: minor, measuredPower: measuredPower)
 let kicker = Kicker(advertisement: advertisement)
 let manager = CBPeripheralManager(delegate: kicker, queue: nil)
-NSApplication.shared.run()
+RunLoop.main.run()
