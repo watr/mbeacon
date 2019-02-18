@@ -38,7 +38,7 @@ iBeacon's ```measuredPower``` value is RSSI value 1 meter away from beacon.
 
 If you want to measure real RSSI value (easily, I think)
 - Set ```mbeacon```'s ```measuredPower``` value around ```-55```
-- Find beacon from iOS device
+- Find beacon from iOS device with any iBeacon app
 - Move iOS device 1 meter away from beacon
 
 Update ```mbeacon```'s ```measuredPower``` value using RSSI value 1 meter away from beacon.
