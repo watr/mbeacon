@@ -14,12 +14,12 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		2F7362972089BEED0073C286 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -77,6 +77,7 @@
 				2F7362952089BEED0073C286 /* Sources */,
 				2F7362962089BEED0073C286 /* Frameworks */,
 				2F7362972089BEED0073C286 /* CopyFiles */,
+				2F8CEA1C2625EA82005D559F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -119,6 +120,27 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F8CEA1C2625EA82005D559F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"${SOURCE_ROOT}/mbeacon/Info.plist\" \"${BUILT_PRODUCTS_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F7362952089BEED0073C286 /* Sources */ = {
