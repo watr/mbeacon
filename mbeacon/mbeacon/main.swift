@@ -2,7 +2,7 @@
 import Foundation
 import CoreBluetooth
 
-let currentVersionDescription: String = "mbeacon 0.0.2"
+let currentVersionDescription: String = "mbeacon 0.2.0"
 let defaults = UserDefaults.standard
 
 let uuid: UUID
