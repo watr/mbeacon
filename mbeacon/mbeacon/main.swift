@@ -2,7 +2,7 @@
 import Foundation
 import CoreBluetooth
 
-let currentVersionDescription: String = "mbeacon 0.2.0"
+let currentVersionDescription: String = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "missing"
 let defaults = UserDefaults.standard
 
 let uuid: UUID
