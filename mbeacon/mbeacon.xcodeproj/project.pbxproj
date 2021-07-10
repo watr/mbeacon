@@ -278,7 +278,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/mbeacon/Info.plist";
 				INFOPLIST_OUTPUT_FORMAT = binary;
 				MARKETING_VERSION = 0.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.prancy.mbeacon;
+				PRODUCT_BUNDLE_IDENTIFIER = mbeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -293,7 +293,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/mbeacon/Info.plist";
 				INFOPLIST_OUTPUT_FORMAT = binary;
 				MARKETING_VERSION = 0.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.prancy.mbeacon;
+				PRODUCT_BUNDLE_IDENTIFIER = mbeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
