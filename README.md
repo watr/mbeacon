@@ -24,6 +24,13 @@ $ defaults write mbeacon measuredPower -integer -45
 $ mbeacon -uuid "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" -major 0 -minor 0
 ```
 
+## macOS 11 Big Sur - Security & Privacy
+
+'mbeacon' requires Bluetooth permission
+
+<img width="668" alt="image" src="https://user-images.githubusercontent.com/94398/125193622-50905d00-e288-11eb-94a1-9242559de1d4.png">
+
+
 ## Notes
 
 ### How to set measuredPower value?
