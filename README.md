@@ -4,7 +4,7 @@ Turn your mac into an iBeacon.
 # Installation
 
 ```
-$ brew tap watr/formulae
+$ brew tap watr/homebrew-formulae
 ...
 $ brew install mbeacon
 ```
